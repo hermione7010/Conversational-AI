@@ -39,7 +39,7 @@ The system is built as a state machine using LangGraph:
 Install required packages using pip:
 
 ```bash
-pip install boto3 langchain langgraph langchain-core langchain-aws
+pip install -r requirements.txt
 ```
 
 ---
@@ -57,7 +57,7 @@ pip install boto3 langchain langgraph langchain-core langchain-aws
 1. Run the script:
 
 ```bash
-python your_script_name.py
+python bedrock.py
 ```
 
 2. Interact via the terminal. Type your messages and get real-time responses.
